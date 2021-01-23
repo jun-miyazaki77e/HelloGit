@@ -789,6 +789,9 @@ a:visited { color: inherit; }
             border: none;
             text-align: center;
         }
+        .interview-box {
+            padding-left:10px;
+        }
         .graduate-box1 {
             width: 320px;
             height: 300px;
@@ -1073,7 +1076,8 @@ a:visited { color: inherit; }
     .contents-box {
         width: 100%;
         padding: 60px 0px;
-}
+        display: flex;
+    }
     .service-list > li {
     padding-right: 20px;
     padding-left: 20px;
@@ -1081,7 +1085,8 @@ a:visited { color: inherit; }
     .contents-tidy {
         display: flex;
         list-style: none;
-        margin-left: 135px;
+        margin: auto;
+        padding: 0px;
     }
         .hover-scale {
             transition: transform 0.2s;
